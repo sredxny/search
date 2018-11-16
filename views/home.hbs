@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <title>Clothing Search</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Search the latest in fashion</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+
+<form action="/" method="post">
+    <div class="form-group">
+        <label for="searchterm">Text to search</label>
+        <input type="text" class="form-control" id="searchterm" name="searchterm" aria-describedby="searchTerm" placeholder="Enter text to search">
+        <small id="searchHelp" class="form-text text-muted">{{{showResult searchResult}}}</small>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+
+<footer class="footer-copyright text-center py-3">
+    Sredny 2018
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="assets/js/bootstrap.js"></script>
+</body>
+</html>
